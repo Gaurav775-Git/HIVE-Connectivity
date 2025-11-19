@@ -103,7 +103,7 @@ This project is open-source under the MIT License.
 You are free to modify and distribute it for personal or commercial use.
 
 
-<h2 align="center">🌠 Aesthetic Footer</h2>
+<h2 align="center">🌠 THIS IS WHAT IT IS !</h2>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=#fff&height=100&section=footer" alt="Footer Wave"/>
