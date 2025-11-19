@@ -57,7 +57,7 @@ const Hero = () => {
         glitchColors={["#61b3dc", "#61dca3", "#2b4539"]}
         glitchSpeed={80}
         smooth={true}
-        outerVignette={true}
+        outerVignette={false}
         centerVignette={false}
       />
       <div className="absolute inset-0 flex items-center justify-center">

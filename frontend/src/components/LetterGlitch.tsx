@@ -4,7 +4,7 @@ const LetterGlitch = ({
   glitchColors = ["#2b4539", "#61dca3", "#61b3dc"],
   glitchSpeed = 50,
   centerVignette = false,
-  outerVignette = true,
+  outerVignette = false,
   smooth = true,
   characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$&*()-_+=/[]{};:<>.,0123456789",
 }) => {
@@ -177,7 +177,7 @@ const LetterGlitch = ({
   }, [glitchSpeed, smooth]);
 
   return (
-<div className="relative w-full h-full bg-white overflow-hidden">
+<div className="relative rounde-full w-full h-full bg-[linear-gradient(rgb(255,255,255)_0%,rgb(245,245,245)_100%)] overflow-hidden"style={{ borderRadius: "45px" }}>
       <canvas ref={canvasRef} className="block w-full h-full" />
       {outerVignette && (
   <div className="absolute top-0 left-0 w-full h-full pointer-events-none bg-[radial-gradient(circle,_rgba(255,255,255,0)_60%,_rgba(255,255,255,1)_100%)]"></div>
