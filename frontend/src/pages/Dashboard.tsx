@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import WorkflowEditor from "@/components/WorkflowEditor";
-import Integrations from "@/components/Integrations";
+import Integrations from "@/components/IntegrationsScrollVelocity";
 import Pricing from "@/components/Pricing";
 import Docs from "@/components/Docs";
 import Footer from "@/components/Footer";
