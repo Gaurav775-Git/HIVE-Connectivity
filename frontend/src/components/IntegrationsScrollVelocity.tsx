@@ -143,9 +143,9 @@ export const IntegrationsScrollVelocity: React.FC<ScrollVelocityProps> = ({
     }
 
     return (
-      <div className={`${parallaxClassName} relative overflow-hidden`} style={parallaxStyle}>
+      <div className={`${parallaxClassName} relative bg-[linear-gradient(rgb(255,255,255)_0%,rgb(245,245,245)_100%)] overflow-hidden`} style={parallaxStyle}>
         <motion.div
-          className={`${scrollerClassName} flex whitespace-nowrap text-center font-sans text-4xl font-bold tracking-[-0.02em] drop-shadow md:text-[5rem] md:leading-[5rem]`}
+          className={`${scrollerClassName} flex whitespace-nowrap text-center font-sans bg-[linear-gradient(rgb(255,255,255)_0%,rgb(245,245,245)_100%)] text-4xl font-bold tracking-[-0.02em] drop-shadow md:text-[5rem] md:leading-[5rem]`}
           style={{ x, ...scrollerStyle }}
         >
           {spans}
