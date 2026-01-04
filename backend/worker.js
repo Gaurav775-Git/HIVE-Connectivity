@@ -6,7 +6,8 @@ const exec = child_process.exec;
 const app = express();
 app.use(express.json());
 
-app.post("/run", (req, res) => {
+const worker = ()=>{
+  app.post("/", (req, res) => {
   const { code } = req.body; // or we can write: const code = req.body.code;
 
   fs.writeFileSync("temp.js", code);
@@ -20,7 +21,10 @@ app.post("/run", (req, res) => {
   });
 
 });
+}
 
 app.listen(5000, () => {
   console.log("Server is listening on 5000 port ");
 });
+
+module.exports = worker;

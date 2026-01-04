@@ -4,6 +4,7 @@ const fs = require("fs");
 const path = require("path");
 const axios = require("axios");
 const cors = require("cors");
+const worker = require("./worker")
 
 
 
@@ -13,6 +14,7 @@ const PORT = 3000;
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use(express.static(path.join(__dirname, "views")));
 app.use(cors());
+app.use("/run",worker);
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
