@@ -52,7 +52,8 @@ It bridges **frontend intelligence** with **backend automation**, letting users 
 
 Clone the repository:
 
-git clone https://github.com/yourusername/hive-test.git
+git clone https://github.com/Gaurav775-Git/HIVE-Connectivity
+
 cd hive-test
 
 cd backend
