@@ -64,10 +64,13 @@ cd ../frontend
 npm install
 npm run dev
 
+Now hive connectivity is live on : hive-connectivity.vercel.app
 
+but in production we are working with =>
 Frontend → http://localhost:5173  
 Backend  → http://localhost:3000  
 Worker   → http://localhost:5000
+
 
 
 graph LR
